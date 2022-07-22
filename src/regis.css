@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+}
+.mainclass_reg{
+background-color: #ac5eac;
+min-width:88px;
+font-family: Helvetica,sans-serif;
+position: relative;
+margin: 10px 250px 10px 250px;   
+box-shadow: 0 0 0 2.5px rgb(17 10 10 / 26%), 0 12px 13px 0 rgb(17 7 7 / 30%);
+border-radius: 5px;
+}
+.registration_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 400;
+}
+.inputbox label{
+    color: aliceblue;
+    margin: 10px;
+    display: flex;
+}
+.inputbox input,select{
+    width: 40%;
+    padding: 12px;
+    margin-left: 10px;
+    font-size: large;
+    letter-spacing: .85px;
+}
+.submitbtn input[type='submit']{
+    color: green;
+    width: 15%;
+    position: relative;
+    padding: 10px;
+    font-size: 21px;
+    text-align: center;
+    margin: 20px 0 10px 10px;
+}
+/************************************** css for mobile  *************************************/
+
+    @media screen and (max-width:1204px){
+        .mainclass_reg{
+            width: 100%;
+            margin:0 0 10px 0;
+            padding: 0;
+            border-radius: 0%;
+        }
+        .registration_page{
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 100;
+            margin-bottom:0%;
+        }
+        h2{
+            /* font-size: px; */
+            margin: 0% 0% 0% 15px;
+        }
+
+        .inputbox input,select{
+            width: 85%;
+            padding: 12px;
+            /* font-size: 20px; */
+            border-radius: 3px;
+            border-width: 0ch;
+            margin:5px 3px 0 15px;
+            letter-spacing: .80px;
+        }
+        .inputbox label{
+            font-size: 18px;
+            margin: 22px 0 0 15px;
+        }
+        .submitbtn input[type='submit']{
+            width: 40%;
+            /* padding: 2%; */
+            margin-left: 15px;
+            font-size: 20px;
+            letter-spacing: 1px;
+
+        }
+        .submitbtn input[type='submit']:hover {
+            background-color: green;
+            color: white;
+            border-width: 0ch;
+            letter-spacing: 1px;
+
+        }
+    }

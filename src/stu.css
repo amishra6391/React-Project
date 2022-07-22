@@ -1,0 +1,54 @@
+.student_main_class{
+ display: flex;
+ float: left;
+ background-color:rgb(231, 230, 231); 
+ width: 33.33%;
+ /* margin: 10px; */
+}   
+.student_submain_class{
+    margin: 4px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color:  #7fffd4;
+}
+.stu_img_class{
+    width:35% ;
+    background-color: rgb(173, 172, 169);
+}
+.stu_box{
+    padding: 7px;
+    letter-spacing: .95px;
+}
+b{
+    color: #160A98;
+    font-family: 'Times New Roman', Times, serif;
+     font-weight: 400;
+     letter-spacing: .75px;
+}
+/******************************************* css for moile ********************************************************/
+
+            @media screen and (max-width:1204px) {
+
+                .student_main_class{
+                    display: inline;
+                    float: none;
+                    background-color: #7fffd4;
+                    
+                }
+                .student_submain_class{
+                    width: 99%;
+                    margin: 2px;
+                    
+                }
+                .stu_img_class{
+                    width:25% ;
+                    background-color:rgb(173, 172, 169);
+                }
+                .stu_box{
+                    padding: 5px;
+                    letter-spacing: .95px;
+                    font-size: small;
+                }
+
+            }
